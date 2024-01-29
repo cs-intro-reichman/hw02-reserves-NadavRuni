@@ -20,8 +20,7 @@ public class Perfect {
 					i++;
 
 				}
-				System.out.print(x);
-				System.out.println("");
+
 				b = true;
 			}
 
