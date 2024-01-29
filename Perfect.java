@@ -9,12 +9,12 @@ public class Perfect {
 			if (x == sum) {
 				remi = i;
 				i = 1;
-				System.out.print(x + " is perfect number because ");
+				System.out.print(x + " is a perfect number since " + x + " = ");
 				while (i <= remi) {
 					if (i < remi) {
 						System.out.print(i + " + ");
 					} else {
-						System.out.print(i + " = ");
+						System.out.print(i);
 					}
 
 					i++;
