@@ -14,11 +14,9 @@ public class InOrder {
 			if (big > a)// בדיקה האם המספר החדש יותר קטן
 			{
 				b = false;
-				System.out.println(x);
 			} else {
 				big = a;
 				System.out.print(a + " ");
-
 			}
 		}
 
