@@ -13,7 +13,7 @@ public class OneOfEachStats1 {
 				} else {
 					cgirl++;
 				}
-				rand = Math.random() * 2 + 1;
+				rand = Mth.random() * 2 + 1;
 				i++;
 			}
 			if (cboy + cgirl == 2)
