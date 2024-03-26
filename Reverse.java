@@ -6,7 +6,7 @@
 public class Reverse {
 	public static void main(String[] args) {
 
-		int x=3;
+		/**int x=3;
 		int [] y ={1,2,3};
 		
 		triple1(x);
@@ -18,8 +18,8 @@ public class Reverse {
 			}
 		
 	}
-	
-		/**String x = args[0];
+	*/
+		String x = args[0];
 		int l = x.length();
 		int i = 0, place = l - 1;
 		int middle = place / 2;
@@ -30,8 +30,8 @@ public class Reverse {
 		}
 		System.out.println("");
 		System.out.println("The middle character is " + x.charAt(middle));
-		 */
-		public static void triple1(int a){
+		
+		/**public static void triple1(int a){
 			a=3*a;
 		}
 		public static void triple2(int[] a){
@@ -40,6 +40,8 @@ public class Reverse {
 				a[i]=3*a[i];
 			}
 		}
+		*/
 
 	}
+}
 
