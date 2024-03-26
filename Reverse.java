@@ -18,7 +18,7 @@ public class Reverse {
 			}
 		
 	}
-	//ין
+	
 		/**String x = args[0];
 		int l = x.length();
 		int i = 0, place = l - 1;
