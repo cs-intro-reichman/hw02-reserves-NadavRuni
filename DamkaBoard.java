@@ -20,7 +20,7 @@ public class DamkaBoard {
 				System.out.print("* ");
 				l++;
 			}
-			if (q)
+			if (!q)
 			{
 				System.out.print("* ");
 			}
