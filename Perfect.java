@@ -5,7 +5,7 @@ public class Perfect {
 		int remi = 0;
 		boolean b = false;
 		int mod;
-		String end=x + " is a perfect number since 1";
+		String end=x + " is a perfect number since "+x +" = 1";
 		while (i < x) {
 			mod = x % i;
 			if (mod == 0)
@@ -19,7 +19,7 @@ public class Perfect {
 		}
 		if (sum==x)
 		{
-			end=end +" = "+x;
+			
 			System.out.println(end);
 		}
 		
